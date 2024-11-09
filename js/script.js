@@ -210,8 +210,3 @@ document.addEventListener("click", (e) => {
 links.onclick = function (e) {
   e.stopPropagation();
 };
-
-// window.onload = function () {
-//   // changeHeroImage();
-
-// };
