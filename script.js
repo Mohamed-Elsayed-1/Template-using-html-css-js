@@ -10,7 +10,7 @@ window.addEventListener("scroll", () => {
 });
 
 function setImage(img) {
-  hero.style.background = `linear-gradient(#00000071, #00000071), url('../img/${img}')`;
+  hero.style.background = `linear-gradient(#00000071, #00000071), url('./img/${img}')`;
   hero.style.backgroundPosition = "center";
   hero.style.backgroundRepeat = "no-repeat";
   hero.style.backgroundSize = "cover";
